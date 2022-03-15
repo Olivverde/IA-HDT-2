@@ -7,7 +7,7 @@ import numpy as np
 from reader import Reader
 import random
 
-class main(object):
+class task_1(object):
     def __init__(self, csvFilePath):
         # Universal Doc
         self.csvDoc = csvFilePath
@@ -59,5 +59,5 @@ class main(object):
         plt.ylabel('Weekly_Sales')
         plt.show()
 
-driver = main('Walmart.csv')
+driver = task_1('Walmart.csv')
 driver.polyGraph()
